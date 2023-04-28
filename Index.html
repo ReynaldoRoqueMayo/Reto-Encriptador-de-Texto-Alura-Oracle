@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de texto</title>
-    <link   rel="stylesheet" href="styles/reset.css" >
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
 
 </head>
+
 <body>
     <header>
         <div>
@@ -19,11 +21,30 @@
 
     </header>
     <main>
-        <section>
-	</section>
-        <section>
-	</section>
+        <section class="entradaTexto">
+            <textarea id="txa-entrada" cols="25" rows="10" placeholder="Ingrese el texto aqui..."></textarea>
+            <p>&#9888 Ingrese un texto para encriptar o desencriptar</p>
+            <div class="acccionesEncriptar">
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="salidaTexto">
+            <textarea id="txa-salida" cols="15" rows="10" disabled></textarea>
+            <div class="bannerSalida">
+                <img id="imagenBanner" src="/resources/lupe.png">
+                <h3>Ningún mensaje fue encontrado </h3>
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <div class="acccionesEncriptado">
+                <button id="btnCopiar">Copiar</button>
+
+            </div>
+        </section>
     </main>
 
 </body>
+<script src="js/comportamiento.js"></script>
+
 </html>
