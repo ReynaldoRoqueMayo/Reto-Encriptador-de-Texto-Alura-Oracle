@@ -1,23 +1,36 @@
 
+@font-face {
+    font-family: fontPressStart;
+    src: url(/fonts/PressStart2P-Regular.ttf);
+}
+
 
 body {
-    background-color: #F3F5FC;
+    background:#00bcd4;
     
 }
 header{
     margin-top: 40px;
+    
 }
 main{
     
     width: 940px;
     margin: 50px auto ;
 }
+.imgEncabezado {
 
-.ingresoTexto {
-
-    background: transparent ;
-    font-size: 32px;
-    font-family: sans-serif;
-  
-
+   
+	display:inline-block;
+	vertical-align:middle;
 }
+h1 {
+	display:inline-block;
+	vertical-align:middle;
+	padding-left: 50px;
+	font-family: fontPressStart;
+	font-size:25px;
+	text-shadow: -3px 3px white;
+}
+
+
