@@ -1,0 +1,23 @@
+
+
+body {
+    background-color: #F3F5FC;
+    
+}
+header{
+    margin-top: 40px;
+}
+main{
+    
+    width: 940px;
+    margin: 50px auto ;
+}
+
+.ingresoTexto {
+
+    background: transparent ;
+    font-size: 32px;
+    font-family: sans-serif;
+  
+
+}
