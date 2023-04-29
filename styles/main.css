@@ -1,6 +1,6 @@
 @font-face {
     font-family: fontPressStart;
-    src: url(/fonts/PressStart2P-Regular.ttf);
+    src: url(../fonts/PressStart2P-Regular.ttf);
 }
 
 
@@ -27,6 +27,15 @@ main {
     
     vertical-align: middle;
     float: left;
+    animation:rotarImagen 4s linear infinite;
+}
+
+
+@keyframes rotarImagen {
+   100%{
+    transform :rotateY(360deg);
+
+   }
 }
 
 #imagenBanner {
